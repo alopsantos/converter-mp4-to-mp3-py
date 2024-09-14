@@ -1,8 +1,7 @@
 from pytube import YouTube
 
 
-arquivo = open(
-    "youtube.txt")
+arquivo = open("youtube.txt")
 produtos = arquivo.readlines()
 arquivo.close()
 
